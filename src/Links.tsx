@@ -9,7 +9,7 @@ export default function Links() {
                     href={social.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-gray-700 hover:text-yellow-600 transition-all duration-300"
+                    className="flex items-center gap-3 hover:text-[#FF6A00] transition-all duration-300"
                 >
                     <span className="text-2xl">{social.icon}</span>
                     <span className="text-2xl font-semibold">{social.name}</span>
