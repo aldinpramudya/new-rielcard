@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css';
+import Links from './Links';
 
 function App() {
 
@@ -19,8 +20,9 @@ function App() {
               Everyday i perfecting my craft on making websites to give you value and solution : &#10223;.
             </p>
           </div>
+          {/* Links */}
           <div>
-
+            <Links/>
           </div>
         </div>
       </div>
