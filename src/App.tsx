@@ -21,7 +21,7 @@ function App() {
             </p>
           </div>
           {/* Links */}
-          <div>
+          <div className='pt-3'>
             <Links/>
           </div>
         </div>
