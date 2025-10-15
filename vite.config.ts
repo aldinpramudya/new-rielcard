@@ -5,4 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  server: {
+    host: '0.0.0.0', // biar bisa diakses dari IPv4 & IPv6
+    port: 1337
+  }
 })
