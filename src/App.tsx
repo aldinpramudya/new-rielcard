@@ -23,6 +23,12 @@ function App() {
       opacity: 0,
       delay: 1,
     });
+
+    gsap.from("#asterisk", {
+      x:-100,
+      opacity: 0,
+      delay: 1.3,
+    });
   })
 
   return (
