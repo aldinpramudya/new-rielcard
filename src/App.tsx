@@ -19,8 +19,8 @@ function App() {
     });
 
     gsap.from("#links", {
-      x:-100,
-      opacity:0,
+      x: -100,
+      opacity: 0,
       delay: 1,
     });
   })
@@ -49,6 +49,10 @@ function App() {
           {/* Links */}
           <div id='links' className='pt-3'>
             <Links />
+          </div>
+          <div id='asterisk' className='2xl:mt-0 mt-3 flex items-center'>
+            <img src="/images/asterisk.png" alt="asterisk" className='2xl:w-[20px] 2xl:h-[20px] w-[20px] h-[20px]' />
+            <p className='2xl:text-xl 2xl:pt-10 tracking-tight 2xl:mb-6 mt-3'>call me al, din, riel, ciel (whatever).</p>
           </div>
         </div>
       </div>
