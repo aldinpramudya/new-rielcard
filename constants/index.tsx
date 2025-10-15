@@ -1,8 +1,7 @@
 import { FaInstagram } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FiGithub } from "react-icons/fi";
 
 export const socialLinks = [
     {
@@ -21,14 +20,9 @@ export const socialLinks = [
         icon: <FaLinkedinIn/>
     },
     {
-        name : "Facebook",
-        link: "https://www.facebook.com/aldin.a.pramudya",
-        icon: <FaFacebook/>
+        name: "Github",
+        link: "https://github.com/aldinpramudya",
+        icon: <FiGithub />
     },
-    {
-        name: "X",
-        link: "https://x.com/rielelesia",
-        icon: <FaXTwitter/>
-    }
 ];
 
