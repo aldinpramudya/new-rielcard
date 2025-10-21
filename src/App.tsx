@@ -48,8 +48,8 @@ function App() {
               <h1 className='2xl:text-[128px] text-[50px] font-bold tracking-tighter'>I'm Aldin</h1>
               <img src="/images/asterisk.png" alt="asterisk" className='2xl:w-[60px] 2xl:h-[60px] w-[20px] h-[20px]' />
             </div>
-            <p className='2xl:text-xl 2xl:pt-10 tracking-tight'>Wassup ! I'm a web ethusiast based on Indonesia. <br />
-              Everyday i perfecting my craft on making websites to give you value and solution : &#10223;.
+            <p className='2xl:text-xl 2xl:pt-10 tracking-tight'>Wassup ! I'm a web enthusiast based on Indonesia. <br />
+              Everyday (believe me) i perfecting my craft on making websites to give you value and solution : &#10223;.
             </p>
           </div>
           {/* Links */}
